@@ -1,0 +1,39 @@
+{
+  "name": "magic-params",
+  "version": "1.0.0",
+  "description": "Magically pass parameters to functions in any order.",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/f1lt3r/magic-params.git"
+  },
+  "keywords": [
+    "params",
+    "order",
+    "pass",
+    "arguments",
+    "function",
+    "magic"
+  ],
+  "author": "F1LT3R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f1lt3r/magic-params/issues"
+  },
+  "homepage": "https://github.com/f1lt3r/magic-params#readme",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.6.0",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "esnext": true,
+    "semicolon": false,
+    "rules": {
+      "no-console": 1
+    }
+  }
+}
