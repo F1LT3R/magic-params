@@ -4,11 +4,44 @@
 
 > Magically pass function parameters in any order. Because you're worth it.
 
-## About
+[![Build Status](https://travis-ci.org/F1LT3R/magic-params.svg?branch=master)](https://travis-ci.org/F1LT3R/magic-params)
+[![Coverage Status](https://coveralls.io/repos/github/F1LT3R/magic-params/badge.svg?branch=master)](https://coveralls.io/github/F1LT3R/magic-params?branch=master)
+[![Npm Version](https://img.shields.io/npm/v/magic-params.svg)](https://www.npmjs.com/package/magic-params)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 Magic-Params is a small Node modules that lets you re-order of the params in your functions, without chaging their value. Magic-Params was designed to support a simplified plugin architecure.
 
-For example:
+For example: the following function...
+
+```javascript
+const fn = (args, in, any, order) => {}
+```
+
+... will work exactly the same if you re-order the arguments:
+
+```javascript
+const fn = (any, order, in, args) => {}
+```
+
+Just pass your params object and function to Magic-Params:
+
+```javascript
+const magicParams = require('magic-params')
+
+const fn = (a, b) => {
+	return a + b
+}
+
+const params = {
+	a: 2,
+	b: 2
+}
+
+const result = magicParms.pass(params, fn) 
+// Result = 4
+```
+
+## Passing Arguments
 
 ```javascript
 const magicParams = require('magic-params')
