@@ -89,7 +89,8 @@ yarn add magic-params
 yarn test
 ```
 
+## Credits
 
-
+Thanks to Ben Iconator and Anbileru Adaleru from NounProject for the rabbit and magic wand vectors.
 
 
