@@ -4,7 +4,8 @@
   "description": "Magically pass parameters to functions in any order.",
   "main": "index.js",
   "scripts": {
-    "test": "yarn test"
+    "test": "xo && nyc  --reporter=html --reporter=lcov ava",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls -v"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
     "rules": {
       "no-console": 1
     }
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0"
   }
 }
