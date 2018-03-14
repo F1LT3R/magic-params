@@ -1,7 +1,7 @@
 {
   "name": "magic-params",
   "version": "1.0.0",
-  "description": "Magically pass parameters to functions in any order. Because you're worth it.",
+  "description": "Magically pass parameters to functions in any order.",
   "main": "index.js",
   "scripts": {
     "test": "xo && nyc  --reporter=html --reporter=lcov ava",
