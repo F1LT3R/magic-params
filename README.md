@@ -124,4 +124,4 @@ yarn test
 
 ## Credits
 
-Thanks to Ben Iconator and Anbileru Adaleru from NounProject for the rabbit and magic wand vectors.
+Thanks to [Ben Iconator](https://thenounproject.com/mr.iconator/) and [Anbileru Adaleru](https://thenounproject.com/pronoun/) from NounProject for the rabbit and magic wand vectors used in the magic params logo.
