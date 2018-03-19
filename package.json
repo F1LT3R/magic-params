@@ -1,6 +1,6 @@
 {
   "name": "magic-params",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Magically pass parameters to functions in any order.",
   "main": "index.js",
   "scripts": {
@@ -26,9 +26,6 @@
   },
   "homepage": "https://github.com/f1lt3r/magic-params#readme",
   "dependencies": {
-    "ava": "^0.25.0",
-    "nyc": "^11.6.0",
-    "xo": "^0.20.3"
   },
   "xo": {
     "esnext": true,
@@ -38,6 +35,9 @@
     }
   },
   "devDependencies": {
-    "coveralls": "^3.0.0"
+    "coveralls": "^3.0.0",
+    "ava": "^0.25.0",
+    "nyc": "^11.6.0",
+    "xo": "^0.20.3"
   }
 }

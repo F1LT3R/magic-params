@@ -37,7 +37,7 @@ const params = {
 	b: 2
 }
 
-const result = magicParms.pass(params, fn) 
+const result = magicParms.pass(params, fn)
 // Result = 4
 ```
 
@@ -125,5 +125,3 @@ yarn test
 ## Credits
 
 Thanks to Ben Iconator and Anbileru Adaleru from NounProject for the rabbit and magic wand vectors.
-
-
