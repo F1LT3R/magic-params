@@ -1,7 +1,7 @@
 
 # Magic Params
 
-> Magically pass function parameters in any order.
+> 🐇  magically pass function parameters in any order
 
 [![Build Status](https://travis-ci.org/F1LT3R/magic-params.svg?branch=master)](https://travis-ci.org/F1LT3R/magic-params)
 [![Coverage Status](https://coveralls.io/repos/github/F1LT3R/magic-params/badge.svg?branch=master)](https://coveralls.io/github/F1LT3R/magic-params?branch=master)
