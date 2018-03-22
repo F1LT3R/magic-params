@@ -1,6 +1,6 @@
 {
   "name": "magic-params",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "🐇  Magically pass parameters to functions in any order.",
   "main": "index.js",
   "scripts": {

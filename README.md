@@ -1,4 +1,3 @@
-<img alt="Bunny rabbit waving magic wand in parenthesis" src="magic-params.png" align="right">
 
 # Magic Params
 
@@ -8,6 +7,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/F1LT3R/magic-params/badge.svg?branch=master)](https://coveralls.io/github/F1LT3R/magic-params?branch=master)
 [![Npm Version](https://img.shields.io/npm/v/magic-params.svg)](https://www.npmjs.com/package/magic-params)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
+<img alt="Bunny rabbit waving magic wand in parenthesis" src="magic-params.png" align="right">
 
 Magic-Params is a small Node modules that lets you re-order of the params in your functions, without chaging their value. Magic-Params was designed to support a simplified plugin architecure.
 
